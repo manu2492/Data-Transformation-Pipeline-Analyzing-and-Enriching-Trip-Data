@@ -1,0 +1,8 @@
+.env
+env/
+venv/
+env.bak/
+env1/
+env2/
+.pyenv/
+.venv/

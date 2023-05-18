@@ -1,0 +1,4 @@
+﻿id;tipo;consumo urbano;consumo a 120km/hr
+1;Pick Up;10 l / 100 km;15 l / 100 km
+2;Camion;25 l / 100 km;36 l / 100 km
+3;Automovil;6,7 l / 100km;8,8 l / 100km

@@ -105,10 +105,10 @@ def transform_data(df_states, df_locations, df_vehicle_types, df_trips_1):
         # Calculate the theoretical fuel consumption using linear interpolation
         theoretical_consumption = consumption_min + (speed - speed_min) * (consumption_max - consumption_min) / (speed_max - speed_min)
 
-        # Calculate the theoretical fuel consumption per kilometer
-        theoretical_consumption_per_km = theoretical_consumption / 100 * row['kilometros_recorridos']
+        # Calculate the theoretical fuel consumption per trip
+        theoretical_consumption_per_trip = theoretical_consumption / 100 * row['kilometros_recorridos']
 
-        return theoretical_consumption_per_km
+        return theoretical_consumption_per_trip
 
     # Calculate the theoretical fuel consumption per kilometer
     df_main['consumo_teorico'] = df_main.apply(calculate_theoretical_consumption, axis=1)

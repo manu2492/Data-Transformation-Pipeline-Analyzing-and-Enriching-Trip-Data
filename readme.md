@@ -39,7 +39,7 @@ The project utilizes a table named `fact_trip` to store the processed trip data.
 | duration                 | FLOAT         | Trip duration in hours                              |
 | kilometers_traveled      | FLOAT         | Distance traveled in kilometers                     |
 | average_speed            | FLOAT         | Average speed in kilometers per hour                |
-| theoretical_consumption  | FLOAT         | Theoretical fuel consumption per kilometer          |
+| theoretical_consumption  | FLOAT         | Theoretical fuel consumption per trip               |
 | last_update              | DATE          | Timestamp of the last update                        |
 
 ## Column Explanation

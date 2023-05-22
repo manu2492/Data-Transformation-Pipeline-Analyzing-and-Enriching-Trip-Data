@@ -53,7 +53,7 @@ The project utilizes a table named `fact_trip` to store the processed trip data.
 - `duration`: Trip duration in hours.
 - `kilometers_traveled`: Distance traveled in kilometers.
 - `average_speed`: Average speed in kilometers per hour.
-- `theoretical_consumption`: Theoretical fuel consumption per kilometer.
+- `theoretical_consumption`: Theoretical fuel consumption per trip.
 - `last_update`: Timestamp of the last data update.
 
 ## Usage
